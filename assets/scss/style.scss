@@ -263,6 +263,11 @@ body {
   font-size: 1rem;
   font-weight: 300;
 }
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
 
 .language {
   background-color: var(--color-bg-muted);
@@ -272,6 +277,8 @@ body {
   font-size: 0.8rem;
   transition: 0.3s ease;
   cursor: pointer;
+  white-space: nowrap;
+  width: fit-content;
 }
 
 .language:hover {

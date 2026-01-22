@@ -239,6 +239,12 @@ body {
   font-weight: 300;
 }
 
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
 .language {
   background-color: var(--color-bg-muted);
   border: 0.1rem solid var(--color-border-gold);
@@ -247,6 +253,9 @@ body {
   font-size: 0.8rem;
   transition: 0.3s ease;
   cursor: pointer;
+  white-space: nowrap;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .language:hover {
